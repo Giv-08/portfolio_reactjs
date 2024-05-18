@@ -10,7 +10,7 @@
   gap: 5rem;
   justify-content: center;
   align-items: flex-start;
-  background-color: rgba(255, 255, 255, 0.569);
+  /* background-color: rgba(255, 255, 255, 0.569); */
   z-index: 1;
 }
 
@@ -28,7 +28,7 @@
   font-size: 15px;
   letter-spacing: 1px;
   text-align: center;
-  color: #ffffffb6;
+  color: #ffffffcd;
 }
 
 /* .nav-about, .nav-skills, .nav-projects, .nav-contact {
