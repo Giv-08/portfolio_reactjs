@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link, useLocation } from "react-router-dom";
-import astronaut from "../assets/astronaut.png";
-import satellite from "../assets/satellite.png";
-import rocket from "../assets/rocket.png";
-import solarSystem from "../assets/solar-system.png";
+import astronaut from "../assets/astronaut2.png";
+import satellite from "../assets/satellite2.png";
+import cosmonaut from "../assets/cosmonaut.png";
+import tools from "../assets/tools.png";
 import "../styles/nav.css";
 
 export default function Nav() {
@@ -61,8 +61,8 @@ export default function Nav() {
     return (
     <nav className={`nav ${navPositionClass}`}>
       {renderNavLink("/", astronaut, "astronault icon", "nav-about")}
-      {renderNavLink("/skills", solarSystem, "solarSystem icon", "nav-skills")}
-      {renderNavLink("/projects", rocket, "rocket icon", "nav-projects")}
+      {renderNavLink("/skills", tools, "tools icon", "nav-skills")}
+      {renderNavLink("/projects", cosmonaut, "cosmonaut icon", "nav-projects")}
       {renderNavLink("/contact", satellite, "satellite icon", "nav-contact")}
     </nav>
     );
