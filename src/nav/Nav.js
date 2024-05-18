@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, useLocation } from "react-router-dom";
-import astronault from "../assets/astronaut.png";
+import astronaut from "../assets/astronaut.png";
 import satellite from "../assets/satellite.png";
 import rocket from "../assets/rocket.png";
 import solarSystem from "../assets/solar-system.png";
@@ -52,7 +52,7 @@ export default function Nav() {
 
     return (
       <Link to={to} className={linkClass}>
-        <img src={imgSrc} alt={altText} />
+        <img src={imgSrc} alt={altText} className="icons"/>
         {isCurrent && <h1 className="page-title">{pageTitle}</h1>}
       </Link>
     );
@@ -60,12 +60,7 @@ export default function Nav() {
 
     return (
     <nav className={`nav ${navPositionClass}`}>
-      {renderNavLink(
-        "/",
-        astronault,
-        "astronault icon",
-        "nav-about"
-      )}
+      {renderNavLink("/", astronaut, "astronault icon", "nav-about")}
       {renderNavLink("/skills", solarSystem, "solarSystem icon", "nav-skills")}
       {renderNavLink("/projects", rocket, "rocket icon", "nav-projects")}
       {renderNavLink("/contact", satellite, "satellite icon", "nav-contact")}
