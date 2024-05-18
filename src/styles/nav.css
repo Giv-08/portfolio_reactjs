@@ -1,19 +1,17 @@
-body {
-  background-image: url(https://wallpapercave.com/wp/wp2088413.jpg);
-  /* background-image: url(https://www.hdwallpapers.in/download/starry_sky_during_nighttime_space_hd_galaxy-1600x900.jpg); */
-  /* background-image: url(https://wallpapercave.com/wp/wp2088413.jpg); */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+#root {
+  display: flex;
+  justify-content: center;
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   display: flex;
+  padding-top: 3rem;
+  gap: 5rem;
+  justify-content: center;
   align-items: flex-start;
-  top: 3rem;
-  gap: 1rem;
-  left: 50%;
+  background-color: rgba(255, 255, 255, 0.569);
+  z-index: 1;
 }
 
 .icons {
@@ -26,6 +24,13 @@ body {
   opacity: 1;
 }
 
-.nav-about, .nav-skills, .nav-projects, nav-contact {
-  transform: translateX(-1.56rem);
+.page-title {
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffffb6;
 }
+
+/* .nav-about, .nav-skills, .nav-projects, .nav-contact {
+  transform: translateX(-1.56rem);
+} */
