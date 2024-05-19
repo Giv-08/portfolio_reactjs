@@ -1,0 +1,13 @@
+.intro-wrap {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#intro {
+  position: fixed;
+  margin-left: 2rem;
+  left: 0;
+  font-size: larger;
+  line-height: 20px;
+}
