@@ -22,3 +22,44 @@
 .icon {
   width: 60px;
 }
+
+.title {
+  /* background: linear-gradient(90deg,rgba(0, 255, 174, 0.631), rgba(0, 0, 0, 0.071) 70%); */
+  /* border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px; */
+  padding-left: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.active-subheading {
+  cursor: default;
+}
+
+.item.active:nth-child(1) {
+  background: linear-gradient(90deg,rgba(0, 255, 174, 0.631), rgba(0, 0, 0, 0.071) 80%);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.item.active:nth-child(2) {
+  background: linear-gradient(90deg,rgba(255, 0, 144, 0.631), rgba(0, 0, 0, 0.071) 80%);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+/* .sub-container-1.active-subheading h3 {
+  background: linear-gradient(90deg,rgba(219, 186, 69, 0.631), rgba(0, 0, 0, 0.071) 100%);
+}
+.sub-container-2.active-subheading h3 {
+  background: linear-gradient(90deg,rgba(255, 0, 132, 0.631), rgba(0, 0, 0, 0.071) 100%);
+} */
+
+.item.active {
+  position: relative;
+  cursor: default;
+}
