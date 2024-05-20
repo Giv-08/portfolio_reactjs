@@ -1,13 +1,25 @@
+.avatar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .avatar {
   position: fixed;
   overflow: hidden;
   z-index: 1;
+  animation: floating 8s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 50px); }
+  100%   { transform: translate(0, -0px); }
 }
 
 .avatar.about {
   width: 300px;
-  bottom: 0;
-  left: 50%;
+  bottom: 10%;
   transform: translateX(-50%);
 }
 

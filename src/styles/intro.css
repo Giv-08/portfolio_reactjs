@@ -10,3 +10,7 @@
   line-height: 20px;
   letter-spacing: 1px;
 }
+
+#intro h1 {
+  letter-spacing: 3px;
+}
