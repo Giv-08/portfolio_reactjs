@@ -1,0 +1,26 @@
+.avatar {
+  position: fixed;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.avatar.about {
+  width: 300px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.avatar.skills {
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  transform: translateX(0%) scaleX(-1);
+}
+
+.shadow-overlay-skills {
+  display: block;
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.275),rgba(255, 255, 255, 0));
+  z-index: -1;
+}
