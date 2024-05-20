@@ -1,6 +1,5 @@
 .intro-wrap {
   height: 100vh;
-
 }
 
 #intro {
@@ -9,4 +8,5 @@
   left: 0;
   font-size: medium;
   line-height: 20px;
+  letter-spacing: 1px;
 }
