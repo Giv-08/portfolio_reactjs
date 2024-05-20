@@ -8,7 +8,6 @@ export default class About extends Component {
     <>
       <Avatar page="about" />
       <AboutMenu />
-      <h2>about menu</h2>
     </>
   )
   }

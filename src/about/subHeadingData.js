@@ -35,3 +35,5 @@ const subHeadingData = {
     },
   ],
 }
+
+export default subHeadingData;
