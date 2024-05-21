@@ -1,0 +1,19 @@
+.project-menu {
+  display: flex;
+  align-items: center;
+}
+
+.project-items-container {
+  position: fixed;
+  left: 20%;
+}
+
+.project-img {
+  width: 400px;
+}
+
+.project-sub-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

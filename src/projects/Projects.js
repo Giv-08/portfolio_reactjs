@@ -3,8 +3,10 @@ import ProjectMenu from "./projectMenu";
 
 export default class Projects extends Component {
   render() {
-    return <>
+    return (
+    <>
     <ProjectMenu />
     </>
+    );
   }
 }
