@@ -24,7 +24,7 @@ export default class ProjectsMenu extends Component {
         className={`project-sub-container-${index + 1}`}>
         <h3 id="title">{project.title}</h3>
         <img className="project-img" src={project.image} alt={project.title} />
-        <div>{project.description}</div>
+        <div className="project-description">{project.description}</div>
         <div className="link-container">
           <a href={project.github} target="_blank" rel="noopener noreferrer">GITHUB</a>
           <a href={project.demo} target="_blank" rel="noopener noreferrer">DEMO</a>
