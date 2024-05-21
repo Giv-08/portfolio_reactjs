@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+.project-item:hover {
+  background: linear-gradient(360deg, #ffffff00, #ffffff66, #ffffff00);
+  border-radius: 40px;
+}
+
 .project-item.activeProject .title {
   font-size: 1.5rem;
 }
