@@ -29,6 +29,14 @@
   right: 40%;
 }
 
+
+.avatar.projects {
+  width: 800px;
+  bottom: -25%;
+  left: -10%;
+  z-index: -1;
+}
+
 .shadow-overlay-skills {
   display: block;
   position: fixed;
