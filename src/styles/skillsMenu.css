@@ -1,19 +1,59 @@
 .skill-sets {
   position: fixed;
-  right: 15%;
-  top: 40%;
+  right: 20%;
+  top: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
+}
+.skill-sub-container {
+  position: fixed;
+  left: 10%;
+  top: 35%;
 }
 
 .skill-menu {
   position: fixed;
   left: 0;
   top: 15%;
+  z-index: 1;
 }
 
 .skill-icon {
-  width: 50px;
+  width: 100px;
+}
+
+#title {
+  letter-spacing: 2px;
+}
+
+.skill-title {
+  font-size: 1.1rem;
+  padding-right: 4.5rem;
+  letter-spacing: 2px;
+}
+
+.skill-item.activeSkill .skill-title {
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.activeSkill {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  cursor: default;
+}
+
+.skill-item.activeSkill:nth-child(2) {
+  background: linear-gradient(90deg, #fb99ee, rgba(0, 0, 0, 0.097) 70%);
+}
+.skill-item.activeSkill:nth-child(3) {
+  background: linear-gradient(90deg, #b384f0, rgba(0, 0, 0, 0.096)  70%);
+}
+
+.skill-sub-container-1 h3,
+.skill-sub-container-2 h3 {
+  margin: 20px;
 }

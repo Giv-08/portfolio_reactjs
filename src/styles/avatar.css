@@ -24,9 +24,9 @@
 }
 
 .avatar.skills {
-  width: 280px;
-  bottom: 0;
-  right: 50%;
+  width: 580px;
+  top: 15%;
+  right: 40%;
 }
 
 .shadow-overlay-skills {

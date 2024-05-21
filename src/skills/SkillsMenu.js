@@ -25,7 +25,7 @@ export default class SkillsMenu extends Component {
         key={index}
         className={`skill-sub-container-${this.state.activeMenuItem}`}
       >
-        <h3>{skill.title}</h3>
+        <h3 id="title">{skill.title}</h3>
       </div>
     ));
   };
