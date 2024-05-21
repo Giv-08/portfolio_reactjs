@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import classNames from "classnames";
 import "../styles/skillsMenu.css";
 import skills from "./skillsData.js";
-import frontendIcon from "../assets/abstract1.png"
-import backendIcon from "../assets/abstract2.png"
+import frontendIcon from "../assets/frontend.png"
+import backendIcon from "../assets/backend.png"
 
 export default class SkillsMenu extends Component {
   constructor(props) {
@@ -38,6 +38,8 @@ export default class SkillsMenu extends Component {
 
     return (
       <div className="skill-menu">
+        <div className="skill-sets">
+          <img className="skill-icon" src={currentIcon} alt="current skill" />
         {menuItems.map((item, index) => (
           <div
             key={index}
@@ -49,7 +51,7 @@ export default class SkillsMenu extends Component {
             <h2 className="skill-title">{item}</h2>
           </div>
         ))}
-        <img className="skill-icon" src={currentIcon} alt="current skill" />
+        </div>
         <div className="skill-sub-container">
           {this.renderContent(skills[activeMenuItem])}
         </div>

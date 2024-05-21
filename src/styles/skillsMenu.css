@@ -1,0 +1,19 @@
+.skill-sets {
+  position: fixed;
+  right: 15%;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-menu {
+  position: fixed;
+  left: 0;
+  top: 15%;
+}
+
+.skill-icon {
+  width: 50px;
+}

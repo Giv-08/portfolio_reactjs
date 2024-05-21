@@ -16,6 +16,9 @@ const skills = {
       title: "Tailwind CSS",
     },
     {
+      title: "Bootstrap",
+    },
+    {
       title: "React JS",
     },
     {
@@ -37,6 +40,9 @@ const skills = {
     },
     {
       title: "Ruby",
+    },
+    {
+      title: "Ruby on Rails",
     },
     {
       title: "C",
