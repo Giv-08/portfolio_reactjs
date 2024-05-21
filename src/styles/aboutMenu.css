@@ -19,6 +19,11 @@
   gap: 1rem;
 }
 
+.icon-title-container > h3 {
+  letter-spacing: 4px;
+  font-size: 1.3rem;
+}
+
 .icon {
   width: 60px;
 }
@@ -26,14 +31,13 @@
 
 .title {
   transition: all 300ms ease-in-out;
-  transform: all 200ms scale(1.1);
   letter-spacing: 1px;
 }
 
-/* .title:hover {
+.title:hover {
   cursor: pointer;
-  color: rgb(199, 199, 199);
-} */
+  color: rgb(255, 247, 0);
+}
 
 .active-subheading {
   cursor: default;
@@ -54,20 +58,10 @@
   border-bottom-left-radius: 100px;
 }
 
-.item.active:nth-child(1):hover {
-  cursor: pointer;
-  color: rgba(247, 255, 252, 0.631);
-}
-
 .item.active:nth-child(2) {
   background: linear-gradient(90deg,rgba(255, 150, 109, 0.631), rgba(0, 0, 0, 0.071) 80%);
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-}
-
-.item.active:nth-child(2):hover {
-  cursor: pointer;
-  color: rgb(255, 249, 240);
 }
 
 .item.active {
