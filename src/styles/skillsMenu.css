@@ -1,6 +1,6 @@
 .skill-sets {
   position: fixed;
-  right: 20%;
+  right: 10%;
   top: 35%;
   display: flex;
   flex-direction: column;
@@ -44,13 +44,14 @@
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   cursor: default;
+  width: 300px;
 }
 
 .skill-item.activeSkill:nth-child(2) {
-  background: linear-gradient(90deg, #fb99ee, rgba(0, 0, 0, 0.097) 70%);
+  background: linear-gradient(90deg, #fb99ee, rgba(0, 0, 0, 0.097) 90%);
 }
 .skill-item.activeSkill:nth-child(3) {
-  background: linear-gradient(90deg, #b384f0, rgba(0, 0, 0, 0.096)  70%);
+  background: linear-gradient(90deg, #b384f0, rgba(0, 0, 0, 0.096) 90%);
 }
 
 .skill-sub-container-1 h3,
