@@ -10,8 +10,13 @@
 .sub-container {
   width: 300px;
   position: fixed;
-  top: 25%;
+  top: 30%;
   right: 10%;
+}
+
+.p-container p {
+  letter-spacing: 1px;
+  line-height: 1.5rem;
 }
 
 .icon-title-container {
@@ -50,6 +55,13 @@
   padding: 0 1rem;
   margin: 1rem 0;
 }
+
+/* .item:hover {
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.442), rgba(255, 255, 255, 0) 70%);
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height: 4rem;
+} */
 
 .item.active:nth-child(1) {
   background: linear-gradient(90deg,rgba(109, 255, 201, 0.631), rgba(0, 0, 0, 0.071) 80%);
