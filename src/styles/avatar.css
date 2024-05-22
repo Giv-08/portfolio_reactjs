@@ -37,6 +37,13 @@
   z-index: -1;
 }
 
+.avatar-container-mail {
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  filter: grayscale(95%);
+}
+
 .shadow-overlay-skills {
   display: block;
   position: fixed;

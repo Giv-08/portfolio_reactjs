@@ -1,0 +1,31 @@
+.icons-box {
+  position: fixed;
+  top: 30%;
+  right: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.social-icons {
+  display: flex;
+  gap: 4rem;
+  flex-direction: column;
+}
+
+img.social-icon {
+  width: 80px;
+  opacity: 0.5;
+  border-radius: 50%;
+  background: #ffffff63;
+  transition: all 350ms ease-in-out;
+}
+
+.social-icon.codepen {
+  border-radius: 50%;
+  background: #ffffff44;
+}
+
+.social-icon:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 15px 3px #ffffff8f;
+  cursor: pointer;
+}
