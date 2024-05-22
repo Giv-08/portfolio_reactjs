@@ -2,6 +2,27 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.105);
+  transition: 350ms all ease-in;
+  border-top-right-radius: 40px;
+}
+
+form:hover {
+  background-color: rgba(255, 255, 255, 0.232);
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 20px;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
 }
 
 .contact-menu {
@@ -9,20 +30,66 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 label {
-  margin: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  margin-right: 1rem;
+  align-items: center
 }
 
 input {
+  height: 25px;
+  width: 100%;
   margin-top: 1rem;
+  background: transparent;
+  border-bottom: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: "Russo One", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+}
+
+::placeholder {
+  color: white;
+  text-align: center;
 }
 
 textarea {
+  text-align: center;
+  border-radius: 10px;
+  font-family: "Russo One", sans-serif;
   margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.188);
+  border: none;
+  color:white;
+  width: 300px;
+  height: 80px;
 }
 
 button {
   margin-top: 2rem;
+  padding: 10px 15px;
+  border: 2px white solid;
+  background: transparent;
+  color: white;
+  border-top-right-radius: 20px;
+  transition: all 350ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.296);
+  transform: scale(1.1);
+  color: rgba(9, 2, 40, 0.309);
+  font-weight: 700;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #ff4881;
+  text-align: center;
 }

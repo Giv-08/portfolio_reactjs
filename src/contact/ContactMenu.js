@@ -87,6 +87,7 @@ export default function ContactMenu() {
 
   return (
     <div className="contact-menu">
+      <span className="contact-title">CONTACT ME</span>
       {!isSent && (
         <form onSubmit={handleSubmit}>
           <div className="form-group">
