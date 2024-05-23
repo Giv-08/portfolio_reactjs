@@ -12,7 +12,7 @@
   position: relative;
   width: 40%;
   left: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 
@@ -32,11 +32,13 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: all 300ms ease-in;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
 .project-item:hover {
-  background: linear-gradient(360deg, #ffffff00, #ffffff66, #ffffff00);
-  border-radius: 40px;
+  transform: scale(1.2);
 }
 
 .project-item.activeProject .title {
@@ -62,6 +64,10 @@
 
 .project-item.activeProject:nth-child(4) {
   background: linear-gradient(270deg, #ffffff00, rgba(193, 255, 255, 0.789) 70%);
+}
+
+.project-item.activeProject:nth-child(5) {
+  background: linear-gradient(270deg, #ffffff00, rgba(193, 217, 255, 0.789) 70%);
 }
 
 .project-sub-container {
