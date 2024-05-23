@@ -92,20 +92,60 @@ font-size: 1.5rem;
   justify-content: space-around;
 }
 
-/* @media (max-width: 1100px) {
+@media (max-width: 960px) {
   .project-menu {
-    width: 28rem;
-    top: 20%;
-    transform: translateX(-50%);
+    left: 40%;
+    width: 30rem;
   }
-  .project-item {
-    height: 2rem;
-    width: 100%;
+
+  .project-items-container {
+    justify-content: space-evenly;
   }
+
+  h2.title {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
   .project-item.activeProject .title {
     font-size: 1rem;
   }
-  .title {
-    font-size: 0.8rem;
+
+  .project-sub-container img {
+    width: 300px;
   }
-} */
+
+  .activeProject {
+    width: max-content;
+    height: 35px;
+  }
+}
+
+@media (max-width: 615px) {
+  .project-items-container {
+    left: 85%;
+  }
+
+  .project-sub-container img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 470px) {
+  .project-menu {
+    display: block;
+    top: 20%;
+  }
+
+  .project-items-container {
+    left: 50%;
+  }
+
+  .project-sub-container {
+    position: fixed;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
