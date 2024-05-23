@@ -29,3 +29,24 @@ img.social-icon {
   box-shadow: 0px 0px 15px 3px #ffffff8f;
   cursor: pointer;
 }
+
+@media (max-width: 775px) {
+  .social-icons {
+    gap: 3rem;
+    flex-direction: row;
+    position: fixed;
+    top: 15%;
+    left: 30%;
+  }
+
+  img.social-icon {
+    width: 40px;
+  }
+}
+
+@media (max-width: 390px) {
+  .social-icons {
+    top: 15%;
+    left: 12%;
+  }
+}

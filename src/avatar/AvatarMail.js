@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import avatarImage from "../assets/mail_space2.png";
+import avatarImage from "../assets/mail_space3.png";
 import "../styles/avatar.css";
 
 const AvatarMail = ({ page }) => {

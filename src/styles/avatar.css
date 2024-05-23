@@ -45,20 +45,12 @@
   filter: grayscale(95%);
 }
 
-/* .shadow-overlay-about {
-  display: block;
-  position: fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.481),rgba(255, 255, 255, 0));
-  z-index: 2;
-} */
-
 .shadow-overlay {
   display: block;
   position: fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.242),rgba(255, 255, 255, 0));
   z-index: 1;
 }
-
 
 @media (max-width: 1140px) {
   .avatar.about {
@@ -82,4 +74,10 @@
 .avatar.projects {
   left: -70%;
 }
+}
+
+@media (max-width: 330px) {
+  .avatar {
+  width: 200px;
+  }
 }

@@ -93,3 +93,17 @@ button:hover {
   color: #ff4881;
   text-align: center;
 }
+
+@media (max-width: 390px) {
+  input {
+    width: 200px;
+  }
+
+  form {
+    padding: 1rem;
+  }
+
+  textarea {
+    width: 200px;
+  }
+}
