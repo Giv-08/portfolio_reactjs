@@ -64,3 +64,18 @@
 .skill-sub-container-2 h3 {
   margin: 20px;
 }
+
+@media (max-width: 860px) {
+  .skill-icon {
+    width: 80px;
+  }
+}
+
+@media (max-width: 670px) {
+  .skill-sets {
+    position: fixed;
+    right: 0%;
+    top: 13%;
+    display: block;
+  }
+}

@@ -83,11 +83,40 @@
 
 @media (max-width: 1140px) {
   .menu {
-    top: 85%;
-    gap: 2rem;
-    flex-direction: row-reverse;
-    display: flex;
-    justify-content: center;
-    width: 50%;
+    top: 50%;
+  }
+
+  .item {
+    margin: 0.5rem 0;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 990px) {
+  .sub-container {
+    width: min-content;
+    top: 20%;
+  }
+  .sub-container h3 {
+    font-size: 18px;
+  }
+
+  .sub-container h2 {
+    font-size: 16px;
+  }
+
+  .p-container p {
+    font-size: 12px;
+  }
+
+  .item {
+    height: 2rem;
+  }
+
+  .item h2 {
+    font-size: 12px;
   }
 }

@@ -32,6 +32,11 @@
   color: #ffffffcd;
 }
 
-/* .nav-about, .nav-skills, .nav-projects, .nav-contact {
-  transform: translateX(-1.56rem);
-} */
+@media (max-width: 680px) {
+  .nav {
+    position: absolute;
+    gap: 2rem;
+    bottom: 0;
+    width: 85%;
+  }
+}
