@@ -44,9 +44,25 @@
   filter: grayscale(95%);
 }
 
+.shadow-overlay-about {
+  display: block;
+  position: fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.481),rgba(255, 255, 255, 0));
+  z-index: 1;
+}
+
 .shadow-overlay-skills {
   display: block;
   position: fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.275),rgba(255, 255, 255, 0));
-  z-index: -1;
+  z-index: 1;
+}
+
+
+@media (max-width: 1140px) {
+  .avatar.about {
+    width: 240px;
+    bottom: 20%;
+    z-index: -1;
+  }
 }

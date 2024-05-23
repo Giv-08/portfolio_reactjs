@@ -30,8 +30,15 @@
 
 .skill-title {
   font-size: 1.1rem;
-  padding-right: 4.5rem;
+  margin-left: 2rem;
   letter-spacing: 2px;
+  transition: all 350ms ease-in;
+  width: 300px;
+}
+
+.skill-title:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .skill-item.activeSkill .skill-title {
@@ -44,7 +51,6 @@
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   cursor: default;
-  width: 300px;
 }
 
 .skill-item.activeSkill:nth-child(2) {
