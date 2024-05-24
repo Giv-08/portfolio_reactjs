@@ -2,10 +2,11 @@ import projectOne from "../assets/portfolio.png";
 import projectTwo from "../assets/project3.png";
 import projectThree from "../assets/project4.png";
 import projectFour from "../assets/project5.png";
+import projectFive from "../assets/project6.png";
 
 const projects = {
   1: {
-    title: "Vanilla JS Portfolio",
+    title: "Vanilla JS Portfolio V1",
     image: projectOne,
     description: (
       <>
@@ -50,14 +51,14 @@ const projects = {
   },
   5: {
     title: "Hiragana Learning App",
-    image: projectFour,
+    image: projectFive,
     description: (
       <>
       <p>A basic Japanese learning app built with ReactJS and TailwindCSS</p>
       </>
     ),
     github: "https://github.com/Giv-08/HiraganaLearning",
-    demo: "#",
+    demo: "https://hiragana-learning.netlify.app/",
   },
 }
 
