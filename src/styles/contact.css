@@ -107,3 +107,19 @@ button:hover {
     width: 200px;
   }
 }
+
+@media (max-width: 360px) {
+  .contact-title {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group {
+    margin-top: 0;
+  }
+
+  button {
+    margin-top: 1rem;
+    padding: 6px 15px;
+  }
+}

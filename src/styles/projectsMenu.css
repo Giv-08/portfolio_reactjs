@@ -85,6 +85,11 @@ font-size: 1.5rem;
 
 .link-container a {
   color: white;
+  transition: 300ms all ease-in;
+}
+
+.link-container a:hover {
+  transform: scale(1.4);
 }
 
 .link-container {
@@ -154,4 +159,13 @@ font-size: 1.5rem;
   .project-menu {
     top: 18%;
   }
+
+  .link-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 135%;
+    gap: 1rem;
+    right: -10%;
+}
 }
