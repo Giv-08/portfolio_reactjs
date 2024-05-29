@@ -34,9 +34,13 @@
 @media (max-width: 680px) {
   .nav {
     position: absolute;
-    gap: 2rem;
+    gap: 3rem;
     bottom: 0;
     width: 85%;
+  }
+
+  .icons {
+    width: 35px;
   }
 }
 

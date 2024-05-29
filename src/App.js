@@ -15,6 +15,7 @@ const App = () => {
     <Nav />
     <Background />
     <Routes>
+      {/* The path is a path pattern. When the path pattern matches the current URL, the element will be rendered. */}
       <Route path="/" element={<About/>}/>
       <Route path="/skills" element={<Skills/>}/>
       <Route path="/projects" element={<Projects/>}/>

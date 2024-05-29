@@ -7,9 +7,11 @@ import tools from "../assets/tools.png";
 import "../styles/nav.css";
 
 export default function Nav() {
+  // This hook returns the current location object. This can be useful if you'd like to perform some side effect whenever the current location changes
   const location = useLocation();
-
+// classes to define page paths
   const getNavPositionClass = () => {
+    // The path of the current URL
     switch (location.pathname) {
       case "/":
         return "nav-about";
