@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import DOMPurify from "dompurify";
 
+// use emailjs
 export default function ContactMenu() {
   const initialState = {
     name: "",
