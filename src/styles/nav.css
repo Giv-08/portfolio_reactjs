@@ -40,8 +40,10 @@
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 360px) {
   .nav {
     gap: 1rem;
+    position: fixed;
+    left: 8%;
   }
 }

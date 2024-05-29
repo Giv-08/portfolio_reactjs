@@ -50,3 +50,13 @@ img.social-icon {
     left: 12%;
   }
 }
+
+@media (max-width: 360px) {
+  .social-icons {
+    display: flex;
+    top: 5%;
+    gap: 10px;
+    left: 85%;
+    flex-direction: column;
+  }
+}
